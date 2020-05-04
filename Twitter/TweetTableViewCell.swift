@@ -14,6 +14,14 @@ class TweetTableViewCell: UITableViewCell {
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var tweetContent: UILabel!
+    @IBOutlet weak var favButton: UIButton!
+    @IBOutlet weak var retweetButtom: UIButton!
+    
+    @IBAction func favoriteTweet(_ sender: Any) {
+    }
+    
+    @IBAction func retweet(_ sender: Any) {
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
